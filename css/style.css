@@ -274,7 +274,7 @@ body {
   left: 100px;
   z-index: 2;
   max-height: 5px;
-  animation: star 0.5s ease infinite alternate running 2.3s forwards star-down
+  animation: star 0.5s ease infinite alternate running 2.3s forwards,
       star-down 2s ease 2 normal running 20s forwards,
     star 0.5s ease infinite alternate running 2.5s forwards;
 }
@@ -827,7 +827,7 @@ body {
   position: absolute;
   top: 0;
   left: 270px;
-  animation-timing-function: cubic-bezier(1, 1, 2, 2);
+  animation-timing-function: cubic-bezier(1 1 2 2);
   animation: jump 0.5s ease infinite, white-walker 5s infinite alternate;
 }
 @keyframes white-walker {
