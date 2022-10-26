@@ -827,7 +827,7 @@ body {
   position: absolute;
   top: 0;
   left: 270px;
-  animation-timing-function: cubic-bezier(1 1 2 2);
+  animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
   animation: jump 0.5s ease infinite, white-walker 5s infinite alternate;
 }
 @keyframes white-walker {
